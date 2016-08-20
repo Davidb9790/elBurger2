@@ -1,6 +1,8 @@
+//HW TO REPLACE THIS MODEL WITH A SEQUELIZED EQUIVALENT
 var orm = require('../config/orm.js');
 
 var burger = {
+	//updates needed here
 	all: function(cb) {
 		orm.all('burgers', function(res){
 			cb(res)
